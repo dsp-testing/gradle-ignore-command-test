@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.dependabot'
+version = '0.0.1-RELEASE'
+archivesBaseName = 'basic-pom'
+
+dependencies {
+    implementation 'commons-lang:commons-lang:2.1'
+}
